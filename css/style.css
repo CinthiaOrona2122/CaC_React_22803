@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/profile_back.jpg);
+}
+
+body {
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.ProfileImg {
+    width: 35vw;
+    height: auto;
+    /* max-width: 80%; */
+    border-radius: 23%;
+}
+
+.FullName {
+    font-size: 7.2vw;
+    font-family: Dancing Script;
+    text-align: center;
+}
+
+.Study {
+    font-size: 3vw;
+    font-family: Dancing Script;
+    text-align: center;
+}
+
+.Description {
+    font-size: 1.2vw;
+    margin-top: 3rem;
+    text-align: end;
+    word-wrap: break-word;
+}
+
+.footer {
+    background-color: #dfdede;
+}
+
+.btnPortfolio {
+    display: grid;
+    margin-top: 3rem;
+    padding: 0 5rem 0;
+}
